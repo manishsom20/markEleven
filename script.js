@@ -12,6 +12,7 @@ function clickHandler () {
     logic(dobDigit,luckyNum);
   } else {
     showMsg("Number should be greater than 0");
+    outputMsg.style.color = "green";
   }
 }
 
@@ -27,6 +28,7 @@ function calcDob(dob) {
 
 function hideMsg() {
   outputMsg.style.display = "none";
+  outputMsg.style.color = "red";
 }
 
 function showMsg(msg) {

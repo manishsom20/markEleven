@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 15vh;
+  background-color: #B91C1C;
+  color: white;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 5vh;
+  font-size: 28px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#date-of-birth {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  border: 2px solid #B91C1C;
+}
+
+ #lucky-number {
+   display: block;
+   margin: 0 auto;
+   width: 70%;
+   border: 2px solid #B91C1C;
+   padding: 5px 10px;
+   margin-bottom: 20px;
+ }
+
+ #check-btn {
+   display: block;
+   margin: 0 auto;
+   border: none;
+   background-color: #B91C1C;
+   color: white;
+   font-size: 18px;
+   padding: 10px 15px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+ #output-p {
+   text-align: center;
+   font-size: 18px;
+ }
